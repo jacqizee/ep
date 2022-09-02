@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Programming Assignment</title>
+</head>
+<body>
+  <h1>Traffic Simulator</h1>
+  <main>
+    <button id="add">Add Means of Transport</button>
+    <section>
+      <div id="table-container">
+        <table id='transport-table'>
+          <tr>
+            <th>Distance Moved (m)</th>
+            <th>Speed (m/s)</th>
+            <th>Means Type</th>
+            <th>Started?</th>
+          </tr>
+        </table>
+      </div>
+      <div id="button-container">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="print">Print</button>
+      </div>
+      <div class="modal" id="add-modal">
+        <div class="modal-content">
+          <p>Please select the next vehicle to add:</p>
+          <select name="vehicle" id="vehicles">
+            <option value="Car">Car</option>
+            <option value="Truck">Truck</option>
+            <option value="Airplane">Airplane</option>
+          </select>
+          <button id="add-btn">Add</button>
+        </div>
+      </div>
+      <div class="modal" id="print-modal">
+        <div class="modal-content">
+          <h3>Details</h3>
+          <div id="print-details"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
