@@ -1,5 +1,5 @@
 # Technical Assignment - Mini Traffic Sim
-This is my code for a recent technical assignment for a Junior Full-Stack Developer role
+This is my code for a recent technical assignment for a Junior Full-Stack Developer role at a software development company
 
 ## Requirements
 - Develop a small app that simulates the movement of transport in a simplified manner
